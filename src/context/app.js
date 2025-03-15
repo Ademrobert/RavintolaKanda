@@ -2,8 +2,12 @@
 import {SessionProvider} from "next-auth/react";
 //import {ReactNode} from "react";
 
+//<SessionProvider>
+//</SessionProvider>
 export function AppProvider({children}) {
     return (
-        <SessionProvider>{children}</SessionProvider>
+    <>
+        {children}
+    </>
     )
 }

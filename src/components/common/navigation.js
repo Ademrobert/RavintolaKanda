@@ -2,17 +2,17 @@
 import Button from "@/components/core/buttons/button";
 //import UserIcon from "@/components/core/icons/user";
 //import KeyIcon from "@/components/core/icons/key";
-import {signOut, useSession} from "next-auth/react";
+//import {signOut, useSession} from "next-auth/react";
 import LogoutIcon from "@/components/core/icons/logout";
 import Image from "next/image";
 import Dropdown from "@/components/core/dropdowns/dropdown";
 import ChevronDownIcon from "@/components/core/icons/chevron-down";
 
 export default function Navigation() {
-    const session = useSession();
-    const status = session.status;
-    const fullName = session.data?.user?.name;
-    const profile = session.data?.user?.image;
+//    const session = useSession();
+//    const status = session.status;
+//    const fullName = session.data?.user?.name;
+//    const profile = session.data?.user?.image;
 
     //<Button addClassName={"hover:underline"} text={"About"} href={"/about"}></Button>
     //<Button addClassName={"hover:underline"} text={"Contact"} href={"/contact"}></Button>
