@@ -48,8 +48,14 @@
   }
 }
 
-p {
-  font-family:roboto;
+body {
+  font-family: var(--font-roboto), sans-serif; /* Fallback to sans-serif */
+  font-display: swap;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-arvo), serif; /* Fallback to serif */
+  font-display: swap;
 }
 
 input[type="email"], input[type="password"], input[type="text"] {
@@ -60,7 +66,6 @@ input[type="email"], input[type="password"], input[type="text"] {
 button {
   @apply block w-full text-gray-700 my-4 font-semibold;
   @apply border border-gray-300 rounded-xl px-6 py-2;
-  font-family:roboto;
 }
 
 button[type="submit"], .submit {

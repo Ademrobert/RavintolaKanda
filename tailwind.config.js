@@ -7,6 +7,12 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontDisplay: {
+        swap: 'swap',
+        fallback: 'fallback',
+        optional: 'optional',
+        block: 'block',
+      },
       colors: {
         'primary': {
           '50': '#fcf7ea',
