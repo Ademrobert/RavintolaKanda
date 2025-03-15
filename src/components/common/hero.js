@@ -25,8 +25,8 @@ export default function Hero() {
                 </div>
             </div>
             <div className={"relative hidden md:block"}>
-                <Image width={820} height={480} src={'/pasta-1.jpg'} alt={"Delicious Pasta"}/>
-                <Image width={820} height={480} src={'/pizza-1.png'} alt={"Delicious Pizza"}/>
+                <Image width={820} height={480} src={'/pasta-1.webp'} priority={true} alt={"Delicious Pasta"}/>
+                <Image width={820} height={480} src={'/pizza-1.webp'} priority={true} alt={"Delicious Pizza"}/>
             </div>
         </section>
     )
