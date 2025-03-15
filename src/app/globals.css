@@ -49,13 +49,11 @@
 }
 
 body {
-  font-family: var(--font-roboto), sans-serif; /* Fallback to sans-serif */
-  font-display: swap;
+  font-family: var(--font-roboto), sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-arvo), serif; /* Fallback to serif */
-  font-display: swap;
+  font-family: var(--font-arvo), serif;
 }
 
 input[type="email"], input[type="password"], input[type="text"] {
