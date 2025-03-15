@@ -17,7 +17,7 @@ export default function HomeMenu() {
             </div>
             <SectionHeader subHeader={"Order Our"} mainHeader={"Popular Food"}></SectionHeader>
             <div className={"grid mt-8 grid-cols-1 md:grid-cols-3 grid-flow-row gap-4 auto-rows-[1fr]"}>
-                <MenuItem title={"Peperoni Pizza"} image={<Image width={200} height={200} src={'/peperoni.webp'} alt={'peperoni pizza'}/>} description={"Tomaattikastike, juusto, pepperoni, mozzarella, kirsikkatomaatti ja pestokastike"} price={13.90}/>
+                <MenuItem title={"Peperoni Pizza"} image={<Image width={200} height={200} src={'/peperoni.webp'} alt={'peperoni pizza'}/>} priority={true} description={"Tomaattikastike, juusto, pepperoni, mozzarella, kirsikkatomaatti ja pestokastike"} price={13.90}/>
                 <MenuItem title={"Kana K-Zone"} image={<Image width={200} height={200} src={'/kana-k-zone.webp'} alt={'kana k-zone'}/>} description={"Kana, uunin jälkeen tuorepaprika, kirsikkatomaatti, punasipuli, salaatti, valkosipuli- tai chilimajoneesi.\n" +
                     "Talonperunat sekä dippi"} price={14.50}/>
                 <MenuItem title={"Kebab Ranska"}  image={<Image width={200} height={200} src={'/kebab-ranska.webp'} alt={'kebab ranska'}/>} description={"Kebabennoksiin kuuluu kebabliha, kastike, salaatti, punasipuli, kurkku, kirsikkatomaatti, vihreä chili ja majoneesikastik"} price={11.50} />
