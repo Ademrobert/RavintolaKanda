@@ -4,8 +4,8 @@ import Header from "@/components/common/header";
 import {AppProvider} from "@/context/app";
 import Head from 'next/head';
 
-const roboto = Roboto({ subsets: ['latin'], weight: ['400', '500', '700'], style: ['normal', 'italic'], display: 'swap', variable: '--font-roboto'})
-const arvo = Arvo({ subsets: ['latin'], weight: ['400', '700'], style: ['normal', 'italic'], display: 'swap', variable: '--font-arvo' })
+const roboto = Roboto({ subsets: ['latin'], weight: ['400', '500', '700'], style: ['normal', 'italic'], display: 'optional', variable: '--font-roboto'})
+const arvo = Arvo({ subsets: ['latin'], weight: ['400', '700'], style: ['normal', 'italic'], display: 'optional', variable: '--font-arvo' })
 
 export const metadata = {
   title: 'K&A Italialainen Ravintola | Latokaski | Pizza, pasta ja paljon muuta',
@@ -15,6 +15,10 @@ export const metadata = {
 export default function RootLayout({children}) {
   return (
     <html lang="en" className={`${roboto.variable} ${arvo.variable}`}>
+      <Head>
+         <link rel="preconnect" href="https://fonts.googleapis.com" />
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
+      </Head>
       <body>
       <AppProvider>
         <Header addClassName={"max-w-6xl mx-auto p-4"}></Header>
