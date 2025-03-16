@@ -11,7 +11,7 @@ export default function ContactUs() {
         <section className={"mx-auto mt-8 text-center justify-center"}>
             <SectionHeader color={"primary"} mainHeader={"Contact Us"} subHeader={"Don't hesitate"}></SectionHeader>
             <div className={"mt-8 flex flex-col items-center justify-between"}>
-                <a className={"text-2xl md:text-4xl hover:underline text-center flex items-center justify-center fill-gray-500 text-gray-500"} href={"tel: +358449139566"}><PhoneIcon addClassName={"mr-5"}/>+358 44 913 95 66</a>
+                <a className={"text-2xl md:text-4xl hover:underline text-center flex items-center justify-center fill-gray-500 text-gray-500"} href={"tel: +358442486070"}><PhoneIcon addClassName={"mr-5"}/>+358 44 24 86 070</a>
                 <a className={"text-2xl md:text-4xl mt-8 hover:underline text-center flex items-center justify-center text-gray-500"} href={"mailto: contact@ravintolakanda.fi"}><MailIcon addClassName={"fill-gray-500 text-white mr-5"}/>contact@ravintolakanda.fi</a>
                 <div className={"flex flex-row items-center justify-between"}>
                     <Button target={"_blank"} text={""} href={"https://www.facebook.com/people/K-A-Restaurant/100088670421155/"} addClassName={"flex mt-8 transition-all px-4 py-2 hover:fill-facebook-500"} afterIcon={<FacebookIcon width={40} height={40}/>} afterIconAnimation={"zoom"}></Button>
