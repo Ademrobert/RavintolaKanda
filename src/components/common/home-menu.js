@@ -18,12 +18,12 @@ export default function HomeMenu() {
             <SectionHeader subHeader={"Order Our"} mainHeader={"Popular Food"}></SectionHeader>
             <div className={"grid mt-8 grid-cols-1 md:grid-cols-3 grid-flow-row gap-4 auto-rows-[1fr]"}>
                 <MenuItem title={"Peperoni Pizza"} image={<Image width={200} height={200} src={'/peperoni.webp'} alt={'peperoni pizza'}/>} priority={true} description={"Tomaattikastike, juusto, pepperoni, mozzarella, kirsikkatomaatti ja pestokastike"} price={13.90}/>
-                <MenuItem title={"Kana K-Zone"} image={<Image width={200} height={200} src={'/kana-k-zone.webp'} alt={'kana k-zone'}/>} description={"Kana, uunin jälkeen tuorepaprika, kirsikkatomaatti, punasipuli, salaatti, valkosipuli- tai chilimajoneesi.\n" +
+                <MenuItem title={"Kana K-Zone"} image={<Image width={200} height={200} src={'/kana-k-zone.webp'} alt={'kana k-zone'}/>} loading={"lazy"} description={"Kana, uunin jälkeen tuorepaprika, kirsikkatomaatti, punasipuli, salaatti, valkosipuli- tai chilimajoneesi.\n" +
                     "Talonperunat sekä dippi"} price={14.50}/>
-                <MenuItem title={"Kebab Ranska"}  image={<Image width={200} height={200} src={'/kebab-ranska.webp'} alt={'kebab ranska'}/>} description={"Kebabennoksiin kuuluu kebabliha, kastike, salaatti, punasipuli, kurkku, kirsikkatomaatti, vihreä chili ja majoneesikastik"} price={11.50} />
-                <MenuItem title={"Fetasalatti"} image={<Image width={200} height={200} src={'/feta-salatti.webp'} alt={'fetasalatti'}/>} description={"Jäävuorisalaatti, kirsikkatomaatti, kurkku, paprika, punasipullija rucola,  Fetakuutioita ja kalamataolivi"} price={12.50}/>
-                <MenuItem title={"Cannelloni Pasta"} image={<Image width={200} height={200} src={'/cannelloni-pasta.webp'} alt={'cannelloni pasta'}/>} description={"Ricotta ja pinaatilla täytetty pastarulla; tomaattikastike, kerma, cheddar-mozzarella juusto mix"} price={11.50}/>
-                <MenuItem title={"Carbonara Pasta"} image={<Image width={200} height={200} src={'/carbonara-pasta.webp'} alt={'carbonara pasta'}/>} description={"kerma, pekoni, kananmuna, parmesan"} price={11.50}/>
+                <MenuItem title={"Kebab Ranska"}  image={<Image width={200} height={200} src={'/kebab-ranska.webp'} alt={'kebab ranska'}/>} loading={"lazy"} description={"Kebabennoksiin kuuluu kebabliha, kastike, salaatti, punasipuli, kurkku, kirsikkatomaatti, vihreä chili ja majoneesikastik"} price={11.50} />
+                <MenuItem title={"Fetasalatti"} image={<Image width={200} height={200} src={'/feta-salatti.webp'} alt={'fetasalatti'}/>} loading={"lazy"} description={"Jäävuorisalaatti, kirsikkatomaatti, kurkku, paprika, punasipullija rucola,  Fetakuutioita ja kalamataolivi"} price={12.50}/>
+                <MenuItem title={"Cannelloni Pasta"} image={<Image width={200} height={200} src={'/cannelloni-pasta.webp'} alt={'cannelloni pasta'}/>} loading={"lazy"} description={"Ricotta ja pinaatilla täytetty pastarulla; tomaattikastike, kerma, cheddar-mozzarella juusto mix"} price={11.50}/>
+                <MenuItem title={"Carbonara Pasta"} image={<Image width={200} height={200} src={'/carbonara-pasta.webp'} alt={'carbonara pasta'}/>} loading={"lazy"} description={"kerma, pekoni, kananmuna, parmesan"} price={11.50}/>
             </div>
             <div className={"mt-6 w-full relative text-center flex flex-col items-center"}>
                 <h3 className={"uppercase text-gray-500 font-semibold"}>Want more?</h3>

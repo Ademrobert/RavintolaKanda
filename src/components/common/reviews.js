@@ -19,8 +19,8 @@ export default function Reviews() {
     return (
         <section className={"bg-gray-100 mx-auto p-8 text-center relative justify-center"}>
             <div className={"flex flex-row items-center justify-center gap-48"}>
-                <Button target={"_blank"} href={"https://wolt.com/fi/fin/espoo/restaurant/ka-restaurant"} text={""} afterIcon={<Image className={'greyscale'} width={150} height={150} src={'/wolt.webp'} alt={'Wolt Reviews'}></Image>} afterIconAnimation={"zoom"}></Button>
-                <Button target={"_blank"} href={"https://www.tripadvisor.com/Restaurant_Review-g189932-d26370058-Reviews-Ravintola_K_A-Espoo_Uusimaa.html"} text={""} afterIcon={<Image className={'greyscale'} width={150} height={150} src={'/tripadvisor.webp'} alt={'Tripadvisor Reviews'}></Image>} afterIconAnimation={"zoom"}></Button>
+                <Button target={"_blank"} href={"https://wolt.com/fi/fin/espoo/restaurant/ka-restaurant"} text={""} afterIcon={<Image className={'greyscale'} loading={"lazy"} width={150} height={150} src={'/wolt.webp'} alt={'Wolt Reviews'}></Image>} afterIconAnimation={"zoom"}></Button>
+                <Button target={"_blank"} href={"https://www.tripadvisor.com/Restaurant_Review-g189932-d26370058-Reviews-Ravintola_K_A-Espoo_Uusimaa.html"} text={""} afterIcon={<Image className={'greyscale'} loading={"lazy"} width={150} height={150} src={'/tripadvisor.webp'} alt={'Tripadvisor Reviews'}></Image>} afterIconAnimation={"zoom"}></Button>
             </div>
         </section>
     )
