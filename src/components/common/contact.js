@@ -24,9 +24,8 @@ export default function ContactUs() {
                 <LazyIframe
                   title={"Location of restaurant on google maps"}
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1984.3279269381!2d24.649826577494185!3d60.17530424301918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x468df3813101bccf%3A0xdab7e21ed98a43ab!2sK%26A%20Ravintola%20Latokaski%20%3A%20Pizza%2C%20Pasta%20ja%20paljon%20muuta*21!5e0!3m2!1snl!2snl!4v1703354422287!5m2!1snl!2snl"
-                  width="1920"
                   height="450"
-                  style={{border:0, width:"100%"}}
+                  style={"border:0; width:100%;"}
                   allowFullScreen={false}
                   referrerPolicy="no-referrer-when-downgrade"
                 ></LazyIframe>
