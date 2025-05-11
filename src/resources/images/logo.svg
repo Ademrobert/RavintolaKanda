@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+    version="1.1"
+    id="svg9"
+    width="180"
+    height="90"
+    viewBox="0 0 180 90"
+    sodipodi:docname="restaurant_logo.svg"
+    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:svg="http://www.w3.org/2000/svg"
+>
+    <defs
+        id="defs"
+    >
+    </defs>
+    <sodipodi:base
+        id="base"
+        pagecolor="#ffffff"
+        bordercolor="#000000"
+        borderopacity="0.25"
+        inkscape:showpageshadow="2"
+        inkscape:pageopacity="0.0"
+        inkscape:pagecheckerboard="0"
+        inkscape:deskcolor="#d1d1d1"
+        showgrid="false"
+    />
+    <g inkscape:groupmode="layer"
+        inkscape:label="Layer"
+        id="layer">
+        <rect
+            style="fill:none;stroke:#d9cd37;stroke-width:3;stroke-opacity:1"
+            id="border"
+            width="155"
+            height="60"
+            x="10"
+            y="10"
+        />
+        <text
+            xml:space="preserve"
+            id="name"
+            style="font-size:37pt;fill:#d9cd37;fill-opacity:1;font-family:Rockwell"
+            x="30"
+            y="57"
+        >K&amp;A</text>
+        <text
+            xml:space="preserve"
+            id="restaurant"
+            style="font-size:14px;fill:#d9cd37;fill-opacity:1;font-family:Rockwell"
+            x="35"
+            y="90"
+        >RESTAURANT</text>
+
+    </g>
+</svg>

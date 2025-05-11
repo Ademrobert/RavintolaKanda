@@ -1,0 +1,112 @@
+section.introduction {
+  display: grid;
+  max-width: 56rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+  align-items: center;
+  grid-template-columns: repeat(1,minmax(0,1fr));
+}
+
+section.introduction h1 {
+  font-weight: 600;
+  line-height: 1.5;
+  font-size: 2.25rem;
+  margin: 0;
+}
+
+section.introduction h1 span.primary,
+section.introduction h1 span.secondary {
+  font-style: italic;
+}
+
+section.introduction article h2 {
+  color: var(--primary-color);
+  margin-bottom:0;
+}
+
+section.introduction article p {
+  color: var(--grey-color);
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+section.introduction article a.menu-button {
+  display: flex;
+  transition: all .15s cubic-bezier(.4, 0,.2,1);
+  color: white;
+  text-transform: uppercase;
+  gap: .5rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: var(--secondary-color);
+  border-radius: 9999px;
+  width: max-content;
+  text-decoration: none;
+  align-items: center;
+  font-weight: 600;
+}
+
+section.introduction article a.menu-button:hover {
+  text-decoration: underline;
+  background-color: var(--secondary-hover-color);
+}
+
+section.introduction article a.menu-button:hover .jiggle {
+  animation: jiggle .4s ease;
+}
+
+section.introduction article a.menu-button svg.jiggle {
+  display: block;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+section.introduction .figures {
+  position:relative;
+}
+
+section.introduction .figures img.hero-1 {
+  display: none;
+}
+
+section.introduction .figures img.hero-2 {
+  display: none;
+}
+
+section.introduction .figures img.hero-3 {
+  display: none;
+  position: absolute;
+  left: -40%;
+  bottom: 9%;
+  z-index: -1;
+}
+
+section.introduction .figures img.hero-4 {
+  position: absolute;
+  right: 0;
+  top: -85px;
+  z-index: -1;
+}
+
+
+
+@media (min-width: 768px) {
+  section.introduction {
+    grid-template-columns: .4fr .6fr;
+  }
+
+  section.introduction .figures img.hero-1,
+  section.introduction .figures img.hero-2,
+  section.introduction .figures img.hero-3 {
+    display: block;
+  }
+
+  section.introduction .figures img.hero-4 {
+    right: 0;
+    top: unset;
+    bottom: -2%;
+  }
+}

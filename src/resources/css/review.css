@@ -1,0 +1,50 @@
+section.reviews {
+  background-color: var(--light-grey-color);
+}
+
+section.reviews h2 {
+  margin:0;
+  text-align:center;
+  position:relative;
+  top: -40px;
+  font-style: italic;
+}
+
+section.reviews .reviews-links {
+  gap: 12rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  display: flex;
+}
+
+section.reviews .reviews-links a img {
+  transition: all .15s cubic-bezier(.4,0,.2,1);
+  filter: brightness(100%) contrast(100%) saturate(0) blur(0) hue-rotate(0deg);
+}
+
+section.reviews .reviews-links a:hover img {
+  animation: zoom .4s ease;
+}
+
+section.reviews .reviews-links a:hover img.wolt {
+  filter: brightness(100%) contrast(100%) saturate(100%) blur(0) hue-rotate(0deg);
+}
+
+section.reviews .reviews-links a:hover img.tripadvisor {
+  filter: brightness(100%) contrast(100%) saturate(100%) blur(0) hue-rotate(0deg);
+}
+
+@media (max-width: 768px) {
+  section.reviews h2 {
+    top: -15px;
+    font-style: italic;
+    max-width: 200px;
+    margin: auto;
+  }
+
+  section.reviews .reviews-links {
+    gap: 0;
+  }
+}
+
