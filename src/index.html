@@ -3,8 +3,26 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- SEO -->
     <title>K&amp;A Italialainen Ravintola | Latokaski | Pizza, pasta ja paljon muuta</title>
     <meta name="description" content="Nauti italialaisesta ruoasta Espoon Latokaskessa. K&amp;A on perheystävällinen ravintola. Tutustu ruokalistamme ja koe, miten maku herää eloon. Tervetuloa!">
+    <!-- Security Headers -->
+    <meta http-equiv="Content-Security-Policy"
+          content="default-src 'self';
+                   img-src 'self' https: data:;
+                   style-src 'self' https://fonts.googleapis.com 'unsafe-inline';
+                   font-src 'self' https://fonts.gstatic.com;
+                   script-src 'self' 'unsafe-inline';
+                   object-src 'none';
+                   base-uri 'self';
+                   form-action 'self';
+                   frame-ancestors 'none';">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta http-equiv="Permissions-Policy"
+          content="geolocation=(), microphone=(), camera=(), magnetometer=(), gyroscope=(), speaker=(), vibrate=(), fullscreen=(), payment=(), usb=(), vr=(), accelerometer=(), ambient-light-sensor=(), autoplay=(), encrypted-media=(), picture-in-picture=(), document-domain=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), sync-xhr=(), publickey-credentials-get=(), screen-wake-lock=(), webauthn=(), xr-spatial-tracking=(), interest-cohort=()">
+    <meta http-equiv="Cross-Origin-Embedder-Policy" content="require-corp">
+    <meta http-equiv="Cross-Origin-Opener-Policy" content="same-origin">
+    <!-- CSS Style Sheets -->
     <link rel="stylesheet" href="resources/css/base.css">
     <link rel="stylesheet" href="resources/css/animations.css">
     <link rel="stylesheet" href="resources/css/header.css">
@@ -16,8 +34,10 @@
     <noscript><link rel="stylesheet" href="resources/css/contact.css"></noscript>
     <link rel="preload" href="resources/css/review.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="resources/css/review.css"></noscript>
+    <!-- Favicon -->
     <link rel="icon" href="resources/icons/favicon.ico" type="image/x-icon" sizes="256x144">
     <link rel="apple-touch-icon" href="resources/icons/favicon.ico" type="image/x-icon" sizes="160x90">
+    <!-- Above the fold Images preloading-->
     <link rel="preload" as="image" href="resources/images/logo.svg">
     <link rel="preload" as="image" href="resources/images/pasta-1.webp">
     <link rel="preload" as="image" href="resources/images/pizza-1.webp">
