@@ -22,6 +22,8 @@
           content="geolocation=(), microphone=(), camera=(), magnetometer=(), gyroscope=(), speaker=(), vibrate=(), fullscreen=(), payment=(), usb=(), vr=(), accelerometer=(), ambient-light-sensor=(), autoplay=(), encrypted-media=(), picture-in-picture=(), document-domain=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), sync-xhr=(), publickey-credentials-get=(), screen-wake-lock=(), webauthn=(), xr-spatial-tracking=(), interest-cohort=()">
     <meta http-equiv="Cross-Origin-Embedder-Policy" content="require-corp">
     <meta http-equiv="Cross-Origin-Opener-Policy" content="same-origin">
+    <!-- Workaround for github pages not working with security headers, see: https://github.com/orgs/community/discussions/54257 -->
+    <script src="resources/javascript/headers-fix.min.js"></script>   
     <!-- Favicon -->
     <link rel="icon" href="../resources/icons/favicon.ico" type="image/x-icon" sizes="256x144">
     <link rel="apple-touch-icon" href="../resources/icons/favicon.ico" type="image/x-icon" sizes="160x90">
