@@ -1,0 +1,89 @@
+section.about-us {
+  padding: 4rem 2rem;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+section.about-us h2 {
+  text-align:center;
+}
+
+section.about-us h2 span.sub {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+section.about-us h2 span.secondary {
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-style: italic;
+}
+
+section.about-us article {
+  text-align:center;
+  color: white;
+  max-width: 28rem;
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section.about-us article h3 {
+  text-align:center;
+}
+
+section .pizza-video-background {
+  z-index: -10;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  position: absolute;
+  overflow: hidden;
+}
+
+section .pizza-video-background::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.5);
+}
+
+section .pizza-video-background iframe {
+  position: relative;
+  top: -11rem;
+  border-width: 0;
+  outline: auto;
+  display: block;
+}
+
+section.about-us::before {
+  content: "";
+  display: block;
+  height: 15rem;
+  clip-path: polygon(50% 20%,0 0,100% 0);
+  background-color: var(--page-background);
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+section.about-us::after {
+  content: "";
+  display: block;
+  clip-path: polygon(50% 0, 0 20%, 100% 20%);
+  background-color: var(--page-background);
+  height: 15rem;
+  position: absolute;
+  right:0;
+  left:0;
+  bottom: -13rem;
+}

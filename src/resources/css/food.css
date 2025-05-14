@@ -1,0 +1,128 @@
+section.food-menu {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+  max-width: 56rem;
+}
+
+section.food-menu h2 {
+  text-align:center;
+}
+
+section.food-menu h2 span.sub {
+  text-transform: uppercase;
+  font-weight:600;
+}
+
+section.food-menu h2 span.primary {
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-style: italic;
+}
+
+section.food-menu ul {
+  display: grid;
+  grid-auto-rows: 1fr;
+  grid-auto-flow: row;
+  padding:0;
+  list-style: none;
+  margin-top: 6rem;
+  grid-gap: 6rem 2rem;
+  grid-template-columns: repeat(1,minmax(0,1fr));
+}
+
+section.food-menu ul li.food-item {
+  position: relative;
+  filter: drop-shadow(rgba(0, 0, 0, 0.2) 0px 4px 4px);
+  background-color: var(--spaghetti-color);
+  transition: all .15s cubic-bezier(.4,0,.2,1);
+  padding: 1rem;
+  border-radius: .5rem;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+}
+
+section.food-menu ul li.food-item article {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+}
+
+section.food-menu ul li.food-item article h3 {
+  padding-top: 5rem;
+  margin: 0;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--secondary-color);
+}
+
+section.food-menu ul li.food-item article p {
+  color: var(--grey-color);
+  font-weight: 500;
+}
+
+section.food-menu ul li.food-item article figure {
+  position: absolute;
+  filter: drop-shadow(rgba(0, 0, 0, 0.2) 0px 4px 4px);
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  left: -0.5rem;
+  width: 100%;
+  height: 10rem;
+  display: flex;
+  top: -6rem;
+}
+
+section.food-menu h4 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: .5rem;
+}
+
+section.food-menu .menu-button {
+  background-color: var(--primary-color);
+  transition: all .15s cubic-bezier(.4,0,.2,1);
+  color: white;
+  text-decoration: none;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  display: flex;
+  align-items: center;
+  border-radius: 9999px;
+  gap: .5rem;
+  width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 600;
+}
+
+section.food-menu .menu-button:hover {
+  background-color: var(--primary-hover-color);
+  text-decoration: underline;
+}
+
+section.food-menu .menu-button svg.point-right {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+section.food-menu .menu-button:hover svg.point-right {
+  animation: point-right .4s ease;
+}
+
+@media (min-width: 768px) {
+  section.food-menu ul {
+    grid-template-columns: repeat(3, minmax(0,1fr));
+  }
+}
