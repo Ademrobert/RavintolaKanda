@@ -73,3 +73,44 @@ main section .menu article p {
     grid-template-columns: repeat(2, minmax(0,1fr));
   }
 }
+
+@media (max-width: 768px) {
+  main section {
+    padding: 1rem;
+    margin: 1rem;
+  }
+
+  main section .menu {
+    grid-template-columns: 1fr;
+    min-height: 0;
+    min-width: 0;
+  }
+
+  main section .menu li {
+    grid-column: 1;
+    min-width: 0;
+  }
+
+  main section .menu article {
+    width: 100%;
+  }
+
+  main section .menu article .price,
+  main section .menu article .price .value{
+    margin-left: 10px;
+  }
+ 
+  main section .menu {
+    padding: 5px;
+  }
+
+  main section .menu li {
+    padding-right: 0;
+  }
+
+  main section .menu article p {
+    max-width: 160px;
+    min-width: 0;
+    margin: 0;
+  }
+}
