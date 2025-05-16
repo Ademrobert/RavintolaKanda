@@ -80,7 +80,7 @@ section.food-menu ul li.food-item article figure {
   top: -6rem;
 }
 
-section.food-menu h4 {
+section.food-menu p.sub {
   text-align: center;
   text-transform: uppercase;
   font-weight: 700;

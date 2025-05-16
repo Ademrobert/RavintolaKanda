@@ -29,12 +29,18 @@ header::after {
   width: 160px;
 }
 
-nav > a {
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
   text-decoration: none;
   color: var(--grey-color);
 }
 
-nav > a:hover {
+nav ul li a:hover {
   text-decoration: underline;
 }
 
