@@ -26,13 +26,14 @@ header > nav {
 header::after {
   content: "";
   display: none;
-  width: 160px;
+  width: 180px;
 }
 
 nav ul {
   list-style: none;
   display: flex;
   gap: 20px;
+  padding: 0;
 }
 
 nav ul li a {
