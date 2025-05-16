@@ -126,3 +126,9 @@ section.food-menu .menu-button:hover svg.point-right {
     grid-template-columns: repeat(3, minmax(0,1fr));
   }
 }
+
+@media (max-width: 768px) {
+  section.food-menu h2 span.primary {
+    font-size: 1.9rem;
+  }
+}
