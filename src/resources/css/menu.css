@@ -34,6 +34,10 @@ main section .menu {
   margin-top: 2rem;
 }
 
+main section .menu li {
+  padding-right: 10px;
+}
+
 main section .menu article {
   display: flex;
   justify-content: space-between;
