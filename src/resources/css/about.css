@@ -45,6 +45,14 @@ section .pizza-video-background {
   overflow: hidden;
 }
 
+section .pizza-video-background #toggle-background-motion {
+  position: absolute;
+  top: 3rem;
+  right: 1rem;
+  z-index: 2;
+  display: none;
+}
+
 section .pizza-video-background::after {
   content: "";
   display: block;
